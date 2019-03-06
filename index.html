@@ -24,8 +24,16 @@
 
 <div class="main">
   <h1>Inas Photo Book</h1>
-  <h2>Home</h2>
-  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+  <p>Nice you have found my little photography collection in the vast ocean of bits and bytes. Feel free to browse my <a href="gallery.html">Gallery</a> for photos or get to know <a href="aboutme.html">who I am</a>. See under which <a href="license.html">conditions</a> you may use my photos for free.
+  </p>
+
+  <h2>Random Photo</h2>
+  <img class="photo_front" src="images/1.jpg" name="RandomImg"></img>
+  <script language="JavaScript">
+    var rand_no = 1 + Math.floor(6*Math.random());
+    document.images['RandomImg'].src="images/" + rand_no + ".jpg";
+  </script>  
+
 </div>
 
 </body>

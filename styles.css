@@ -1,6 +1,6 @@
 body {
   margin:0;
-  background-image: url("images/background_blur.jpg");
+  background-image: url("images_website/background_blur.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -82,8 +82,19 @@ h3, h4 {
   text-shadow: 0.1vh 0.1vh 0.1vh rgb(100, 100, 100);
 }
 
-.photo {
+.photo_landscape {
+  margin-top: 5.0vh;
+  width: 50vw;
+  box-shadow: 2vh 2vh 2vh rgb(100, 100, 100);
+}
+
+.photo_portrait {
   margin-top: 5.0vh;
   height: 70vh;
-  box-shadow: 1vh 1vh 1vh rgb(100, 100, 100);
+  box-shadow: 2vh 2vh 2vh rgb(100, 100, 100);
+}
+
+.photo_front {
+  height: 40vh;
+  box-shadow: 2vh 2vh 2vh rgb(100, 100, 100);
 }
