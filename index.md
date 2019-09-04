@@ -13,7 +13,7 @@
 </head>
 <body>
 
-aaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaa this is $\frac{1}{2}$ inline!
 
 
 
