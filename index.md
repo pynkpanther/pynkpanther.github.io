@@ -43,8 +43,8 @@ with $m$ the number of our training examples. Squaring the distance between our 
 
 <script>
 function myFunction() {
-  renderMathInElement(document.body,{delimiters: {left: "$$", right: "$$", display: true}]});
-  renderMathInElement(document.body,{delimiters: {left: "$", right: "$", display: false}]});
+  renderMathInElement(document.body,{delimiters: {left: "$$", right: "$$", display: true}});
+  renderMathInElement(document.body,{delimiters: {left: "$", right: "$", display: false}});
 }
 </script>
 
