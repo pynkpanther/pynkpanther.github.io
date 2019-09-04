@@ -6,6 +6,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js"></script>
 </head>
 <body>
+<div class="tip" markdown="1">
 
 
 
@@ -46,7 +47,7 @@ with $m$ the number of our training examples. Squaring the distance between our 
 
 
 
-
+</div>
     <script>
       renderMathInElement(
           document.body,
